@@ -34,7 +34,8 @@ nav {
 
   font-size: 1.5rem;
   text-decoration: none;
-  background:rgba(117, 110, 107, 0.5);
+  /*background:rgba(117, 110, 107, 0.5);*/
+ background-color:rgba(8, 56, 9, 0.5);
   height: 390px;
   border-radius: 3px;
 }
@@ -47,12 +48,12 @@ a:link {
   padding-bottom: 1.5rem;
 }
 a:hover {
-    background-color: lightgreen;
+    background-color:rgba(8, 56, 9, 0.5);
     border-radius: 50%;
     padding-top:1.5rem;
 }
 a:visited {
-  color:#6290d5;
+  color:darkgreen;
 }
 /*@media (min-width:420) {
     .splash{
@@ -62,15 +63,15 @@ a:visited {
 .carousel {
 
    height:390px;
-   background-color:rgba(117, 110, 107, 0.5);
+   background-color:rgba(8, 56, 9, 0.5);
    margin-top:10px;
    overflow: hidden;
    border-radius: 3px;
 }
 
-img.cat {
+/*img.cat {
   bottom: 200px;
-}
+}*/
 .carousel  img{
   position: relative;
   top:25px;
@@ -84,6 +85,25 @@ img.cat {
   margin: auto 0;
 }
 .buff{
-  background-color:rgba(117, 110, 107, 0.5);
+  /*background-color:rgba(117, 110, 107, 0.5);*/
+   background-color:rgba(8, 56, 9, 0.5);
   border-radius: 3px;
+  margin-bottom: 2.5rem;
+}
+h2{
+  padding: 2rem 0;
+  text-align: center;
+  color: #460002;
+}
+.about {
+
+  border-radius: 5px;
+  /*height: 7rem;*/
+  /*background-color:rgba(8, 56, 9, 0.5);*/
+}
+.about p{
+  margin-top: 1rem;
+  padding: 2rem;
+  border: 1px solid #2d2d2d;
+  border-radius: 5px;
 }
