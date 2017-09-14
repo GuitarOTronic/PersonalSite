@@ -3,5 +3,34 @@ body{
 }
 
 .splash{
- padding: 0;
+ padding: 10rem  10rem ;
+ background-image: url("../assets/splash.jpg");
+ background-size: cover;
+ background-position: contain;
+ background-repeat: no-repeat;
 }
+.title{
+  font-size: 4rem;
+  color: #460002;
+  padding: 2rem 0;
+  background:rgba(117, 110, 107, 0.5);
+  min-width: 255px;
+  border-radius: 10px;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.padUp{
+  padding-top: 2rem;
+}
+.padSides{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/*@media (min-width:420) {
+    .splash{
+      background-size: contain;
+    }
+}*/
