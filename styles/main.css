@@ -1,3 +1,7 @@
 body{
   background-image: url("../assets/BG.png");
 }
+
+.splash{
+ padding: 0;
+}
