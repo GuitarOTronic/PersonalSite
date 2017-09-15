@@ -126,10 +126,18 @@ a:hover.git  {
 }
 .readme{
   text-align: left;
+  padding-top: 1rem;
+
 }
 .proj {
 
-
+    padding-bottom: 1rem;
     text-align: center;
     color: #460002;
+}
+.bord{
+  border: 1px solid #2d2d2d;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+
 }
